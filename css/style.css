@@ -1,0 +1,18 @@
+.title {
+    font-family: 'Pacifico', cursive;
+    
+}
+
+header {
+    background:linear-gradient(0.25turn,#D3FAF9, #8BC0E8);
+}
+.img-responsive {
+    width: 15%;
+    height: 220px;
+    max-width: 100%;
+    display: block;
+    
+}
+nav {
+    background-color: #2e6c81;
+}
