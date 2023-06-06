@@ -16,3 +16,13 @@ header {
 nav {
     background-color: #2e6c81;
 }
+
+html, body {
+    background-color: #2e6c81;
+    /* background-image: url(/assets/bgmain.jpg) ;
+    background-position: center top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+}
