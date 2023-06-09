@@ -14,7 +14,7 @@
 <body>
     <header>
         
-        <div class="col-4 ps-2 text-center">
+        <div class="col-4 ps-2  mb-5 text-center">
             <img src="./assets/logochat1.png" alt="Bootstrap" class="img-fluid mt-3">
         </div>
         
@@ -27,14 +27,14 @@
                 <div class="collapse navbar-collapse row" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
                     <li class="nav-item">
-                        <a class="title nav-link text-dark fs-5 px-5" href="index.html">Accueil</a>
+                        <a class="title nav-link text-dark fs-4 px-5" href="index.html">Accueil</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="title nav-link active text-dark fs-5 px-5" aria-current="page" href="animaux.html">Animaux</a>
+                        <a class="title nav-link active text-dark fs-4 px-5" aria-current="page" href="animaux.html">Animaux</a>
                     </li>
                     <li class="nav-item">
-                        <a class="title nav-link active text-dark fs-5 px-5" href="#">Contactez-nous</a>
+                        <a class="title nav-link active text-dark fs-4 px-5" href="#">Contactez-nous</a>
                     </li>
                 </ul>
             </div>
@@ -42,9 +42,53 @@
         </nav>
     </header>
     <main>
+        <!--
         <h2>Vous souhaitez nous envoyer un message ?</h2>
         <p>Veuillez nous envoyer un mail avec vos coordonnées ( Nom , prénom , numéro de téléphone, adresse mail ) et vos questions </p>
-        
+        -->
+    <div class="border border-2 border-dark border-rounded col-md-6 mx-auto my-5">
+        <form class="row g-3 col-9 my-5 justify-content-end" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label"></label>
+                <input type="text" class="form-control border-dark border-2" id="validationCustom01" value="Nom : " required>
+                <div class="valid-feedback">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label"></label>
+                <input type="text" class="form-control border-dark border-2" id="validationCustom02" value="Prénom : " required>
+                <div class="valid-feedback">
+            </div>
+            </div>
+            <div class="col-md-8">
+                <label for="validationCustom03" class="form-label"></label>
+                <input type="text" class="form-control border-dark border-2" id="validationCustom03" value="E-mail : " required>
+                <div class="valid-feedback">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <label for="validationCustom03" class="form-label"></label>
+                <input type="text" class="form-control border-dark border-2" id="validationCustom03" value="Téléphone : " required>
+                <div class="valid-feedback">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <label for="validationCustom03" class="form-label"></label>
+                <input type="text" class="form-control border-dark border-2" id="validationCustom03" value="Message : " required>
+                <div class="valid-feedback">
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="form-check">
+                    <input class="form-check-input border-dark border-2" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        <b> cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées par www.institut-mariebelle.fr pour me recontacter dans le cadre de ma demande. Les destinataires sont www.institut-mariebelle.fr et son sous-traitant en charge du serveur web (Owentis). Pour plus d'informations sur le traitement de vos données et l'exercice de vos droits, reportez-vous à notre politique de confidentialité.
+                        </b>
+                        </label>
+                </div>
+                </div>
+        </form>
+    </div>
     </main>
 </body>
 </html>
