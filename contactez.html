@@ -16,11 +16,9 @@
 </head>
 <body>
     <header>
-        
         <div class="col-4 ps-2  mb-5 text-center">
             <img src="./assets/logochat1.png" alt="Bootstrap" class="img-fluid mt-3">
         </div>
-        
         <nav class=" menu navbar navbar-expand-lg d-flex">
             <div class="container-fluid">
                 <a class=" title navbar-brand text-dark col-4 text-center fs-2 " href="#">Au coeur des chats</a>
@@ -32,7 +30,6 @@
                     <li class="nav-item">
                         <a class="title nav-link text-dark fs-4 px-5" href="index.html">Accueil</a>
                     </li>
-                    
                     <li class="nav-item">
                         <a class="title nav-link active text-dark fs-4 px-5" aria-current="page" href="animaux.html">Animaux</a>
                     </li>
@@ -45,74 +42,65 @@
         </nav>
     </header>
     <main>
-        <!--
-        <h2>Vous souhaitez nous envoyer un message ?</h2>
-        <p>Veuillez nous envoyer un mail avec vos coordonnées ( Nom , prénom , numéro de téléphone, adresse mail ) et vos questions </p>
-        -->
-    <div class="border border-2 border-dark border-rounded col-md-6 mx-auto my-5">
-        <form class="row g-3 col-9 my-5 justify-content-end" novalidate>
-            <div class="col-md-4">
+    <div class="formulaire opacity-75 border border-2 border-dark border-rounded col-4 mx-auto my-5">
+        <form class="row g-3 col-8 my-5 mx-auto" novalidate>
+            <div class="col-md-6 m">
                 <label for="validationCustom01" class="form-label"></label>
                 <input type="text" class="form-control border-dark border-2" id="validationCustom01" value="Nom : " required>
                 <div class="valid-feedback">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <label for="validationCustom02" class="form-label"></label>
                 <input type="text" class="form-control border-dark border-2" id="validationCustom02" value="Prénom : " required>
                 <div class="valid-feedback">
             </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <label for="validationCustom03" class="form-label"></label>
                 <input type="text" class="form-control border-dark border-2" id="validationCustom03" value="E-mail : " required>
                 <div class="valid-feedback">
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <label for="validationCustom03" class="form-label"></label>
                 <input type="text" class="form-control border-dark border-2" id="validationCustom03" value="Téléphone : " required>
                 <div class="valid-feedback">
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <label for="validationCustom03" class="form-label"></label>
                 <input type="text" class="form-control border-dark border-2" id="validationCustom03" value="Message : " required>
                 <div class="valid-feedback">
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-12">
                 <div class="form-check">
-                    <input class="form-check-input border-dark border-2" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        <b> cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées par www.institut-mariebelle.fr pour me recontacter dans le cadre de ma demande. Les destinataires sont www.institut-mariebelle.fr et son sous-traitant en charge du serveur web (Owentis). Pour plus d'informations sur le traitement de vos données et l'exercice de vos droits, reportez-vous à notre politique de confidentialité.
-                        </b>
+                    <input class="form-check-input border-dark border-2 mt-4" type="checkbox" id="gridCheck">
+                    <label class="form-check-label fw-bold mt-4" for="gridCheck">
+                        En cochant cette case, j’accepte que les données saisies dans le formulaire ci-dessus soient utilisées par 
+                        www.au-coeur-des-chats.fr pour me recontacter dans le cadre de ma demande.
+                        Pour plus d'informations sur le traitement de vos données et l'exercice de vos droits, reportez-vous à notre 
+                        politique de confidentialité.                        
                         </label>
                 </div>
                 </div>
         </form>
     </div>
     </main>
-
     <footer class="bg-dark text-center text-white fs-6">
         <div class="container p-2 pb-0">
-          <section class="mb-2">
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </section>
+            <section class="mb-2">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+            </section>
         </div>
         <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
-          <p>© 2023 
-            <a class="text-white" href="https://github.com/Menolly001">Menolly001</a> | 
-            <a class="text-white" href="contacts.html">Contacts</a>
-          </p>
+            <p>© 2023 
+                <a class="text-white" href="https://github.com/Menolly001">Menolly001</a> | 
+                <a class="text-white" href="contacts.html">Contacts</a>
+            </p>
         </footer>
 </body>
 </html>

@@ -1,6 +1,5 @@
 .title {
     font-family: 'Pacifico', cursive;
-    
 }
 
 header {
@@ -11,7 +10,6 @@ header {
     height: 220px;
     max-width: 100%;
     display: block;
-    
 }
 nav {
     background-color: #2e6c81;
@@ -26,4 +24,10 @@ html, body, main {
     background-attachment: fixed;
     background-size: cover;
 }
-
+.bloc-accueil {
+    background-color: #D3FAF9;
+    font-family: 'Dancing Script', cursive;
+}
+.formulaire {
+    background-color: #D3FAF9;
+}
